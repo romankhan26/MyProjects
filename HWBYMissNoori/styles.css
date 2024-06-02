@@ -1,0 +1,109 @@
+body {
+  font-family: serif, sans-serif;
+  background-image: url(techbg.jpg);
+  color: white;
+  background-size: cover;
+}
+.bg {
+  background-color: rgba(239, 235, 154, 0.301);
+  background-size: cover;
+}
+
+.top-bar {
+  background-color: rgba(255, 255, 255, 0.984);
+  padding-bottom: 0px;
+  padding-left: 15px;
+}
+
+h1 {
+  font-family: sans-serif;
+}
+
+p {
+  font-family: Arial, sans-serif;
+  font-size: 25px;
+}
+
+.h,
+.c {
+  color: rgba(218, 66, 19, 0.924); /* Color for 'H' */
+  font-style: italic;
+  font-size: 40px;
+}
+
+.brand {
+  color: rgb(26, 135, 231); /* Color for 'C' */
+  font-style: italic;
+  font-size: 30px;
+  font-variant: small-caps;
+}
+
+.top-bar h1 {
+  color: rgba(7, 75, 16, 0.992);
+  font-size: 35px;
+  margin-bottom: 15px;
+}
+
+.img-logo {
+  width: 35px;
+  height: 35px;
+  margin-left: 2px;
+  margin-top: 10px;
+  margin-right: 2px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+.image-right {
+  width: 300px;
+  height: 300px;
+  margin-right: 20px;
+  margin-bottom: 15px;
+  border-radius: 10%;
+  border: 1px solid white;
+}
+
+.text-left {
+  flex: 1;
+  text-align: left;
+  margin-right: 20px;
+  margin-left: 30px;
+}
+
+hr {
+  border: 1px solid rgb(255, 255, 255); /* Color for 'H' */
+}
+
+.link {
+  color: white;
+}
+.link:active {
+  color: rgba(248, 248, 255, 0.7);
+}
+
+.footer,
+.footer p {
+  font-size: 10px;
+  text-align: center;
+}
+.footer {
+  padding-top: 40px;
+}
+.link:hover {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.container h2 {
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+  color: rgb(164, 212, 253);
+  font-size: 30px;
+}
+.container .main-heading {
+  color: rgb(164, 212, 253);
+  font-size: 40px;
+}
+.container h1 {
+  font-size: 40px;
+}

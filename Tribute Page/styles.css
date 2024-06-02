@@ -1,0 +1,51 @@
+body {
+  background-image: url(./mainBG.jpg);
+  background-size: cover;
+}
+.background {
+  background-color: rgba(255, 255, 255, 0.935);
+  background-size: cover;
+}
+.main-heading,
+.link {
+  font-size: 2.2rem;
+  font-weight: 550;
+  color: rgb(58, 57, 57);
+}
+.last {
+  margin-top: 0;
+  font-size: small;
+}
+.link:hover {
+  color: gray;
+}
+.link:active {
+  color: rgb(148, 148, 148);
+}
+.img {
+  border: 2px solid grey;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.img1 {
+  border: 10px solid grey;
+  align-items: center;
+  padding: 2px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+.text-left,
+.text {
+  flex: 1;
+  font-size: 1.5rem;
+  margin-left: 20px;
+}
+.image-right {
+  border: 10px solid grey;
+  margin-left: 10px;
+  margin-right: 20px;
+  border-radius: 2%;
+}
