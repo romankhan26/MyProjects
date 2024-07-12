@@ -1,0 +1,64 @@
+body {
+  background-color: rgba(111, 72, 146, 0.571);
+}
+.container {
+  display: flex;
+
+  align-items: center;
+}
+.chess-left {
+  margin: 50px;
+  background-color: rgb(186, 145, 92);
+  flex: 1;
+  border: 10px solid black;
+  padding: 2px;
+}
+table {
+  border: 3px solid black;
+  /* border-collapse: collapse; */
+}
+th {
+  width: 45px;
+  height: 45px;
+}
+.black {
+  background: #000;
+}
+.white {
+  background: #ffffff;
+}
+.white:hover {
+background-image: url(./king-removebg-preview.png);
+background-size: contain;
+background-repeat: no-repeat;
+background-position: center;
+
+}
+.black:hover {
+    background-image: url(./Knight-removebg-preview.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    }
+    .text-right {
+        font-size: xx-large;
+        
+    }
+     h1 {
+        margin: 0px 0px 2px 0px;
+        background: #514e4e;
+        color: white;
+        padding-left: 30px;
+        border: 2px solid rgb(186, 145, 92);
+        border-radius: 10px;
+    }
+    h2 {
+        padding-left: 10px;
+        margin: 0px 0px 2px 0px;
+    }
+    h3 {
+        margin: 0px 0px 0px 0px;
+        padding-left: 10px;
+    }
+    
