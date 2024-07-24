@@ -1,0 +1,128 @@
+body {
+    background-color:rgb(0, 0, 0);
+}
+nav {
+    background: rgba(222, 130, 32, 0.584);
+    margin: -10px -10px 0px -10px;
+    padding-top: 10px;
+    box-shadow: 2px 2px 5px #faca49;
+
+}
+nav:hover {
+    background: rgba(50, 63, 185, 0.368);
+}
+.mainhead:hover{
+    color: rgb(158, 84, 5);
+    
+}
+
+.navbar {
+    /* margin-left:670px ; */
+    margin-top: -65px;
+    float:right;
+    margin-right: 30px;
+}
+a {
+    /* color: white; */
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+    color: #faca49;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.mainhead {
+  font-size: 40px;
+  margin-left: 20px;
+  margin-top: -5px;
+  color: white;
+  text-shadow: -1px 1px 2px #faca49;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hello {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    color: rgb(222,131,32);
+    margin-top: 80px;
+    margin-left: 55px;
+    margin-bottom: -50px ;
+
+}
+.name {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-left: 55px;
+    margin-top: 50px;
+}
+span {
+    background-color: #faca49;
+    color: rgb(50,63,185);
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius:5px ;
+    font-weight: 10px
+}
+.dev {
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(222,131,32);
+    font-size: 54px;
+    margin-left: 80px;
+    margin-top: -15px;
+    
+}
+.dev:hover{
+    /* font-size: 58px; */
+    text-shadow: -2px 2px 2px #faca49;
+    color: rgb(158, 84, 5);
+}
+.devs {
+    margin-left: 50px;
+    margin-top: -15px;
+}
+
+
+.resume {
+    padding: 8px 38px;
+    font-size: 15px;
+    margin-left:170px;
+    margin-top: 25px;
+border-radius: 25px;
+border: none;
+cursor: pointer;
+background-color: #faca49;
+border: 2px solid     #faca49  /* filter:    drop-shadow(2px 2px rgb(0, 0, 0));    Bottom and right black shadow Shadow effect */
+
+}
+
+.resume:hover{
+    background-color: rgb(0, 0, 0);
+    border: 2px solid     #faca49  /* filter:    drop-shadow(2px 2px rgb(0, 0, 0));    Bottom and right black shadow Shadow effect */
+    ;
+    /* font-size: 21px; */
+    align-items: center;
+    color: white;
+    
+}
+.pakistan {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    margin-left: 270px;
+    margin-top: -30px;
+}
+.intro {
+    color: white;
+    /* background-color: aqua; */
+    margin-right: 650px;
+}
+img {
+    width:250px;
+    height: 250px;
+    display: block;
+    margin-left: 700px;
+    box-shadow: 10px 10px 10px black
+     ;
+   margin-top: -300px;  
+}

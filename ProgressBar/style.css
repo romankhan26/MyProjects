@@ -1,0 +1,69 @@
+body {/*need to add bg and images as well*/
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+h3,
+h1,
+h5 {
+  text-align: center;
+}
+h5 {
+  margin-top: -35px;
+  color: aquamarine;
+}
+span {
+    float: right;
+}
+.main-head {
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(251, 255, 0);
+}
+.html {
+    accent-color: rgb(234, 255, 0);
+  }
+.css {
+  accent-color: rgb(0, 187, 255);
+}
+.jquery {
+  accent-color: rgb(0, 255, 251);
+}
+.python {
+  accent-color: rgb(255, 166, 0);
+}
+.php {
+  accent-color: rgb(0, 255, 0);
+}
+.nodejs {
+  accent-color: rgb(255, 0, 255);
+}
+span {
+  margin-left: 10px;
+}
+.main {
+  display: flex;
+  margin-left: 315px;
+  margin-top: -100px;
+}
+h3 {
+  margin-top: -5px;
+  color: rgb(38, 37, 37);
+  text-shadow: 2px 2px 2px rgba(255, 255, 0, 0.561);
+}
+.left {
+  border-radius: 10px 0px 0px 10px;
+}
+.right {
+  border-radius: 0px 10px 10px 0px;
+}
+.right,
+.left {
+  margin: 90px 0px;
+  padding: 30px;
+  background-color: white;
+}
+p {
+  margin-bottom: -20px;
+  font-size: 10px;
+}
