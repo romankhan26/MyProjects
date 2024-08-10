@@ -1,0 +1,107 @@
+body {
+    background-color: black;
+    padding: 35px 150px;
+}
+
+.main {
+    background-color: rgb(50,2,194);
+    color:white;
+    padding: 20px 50px ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+span svg {
+    width: 32px;
+    height: 32px;;
+    color: white;
+}
+.Business{
+    display: inline;
+
+position : relative;
+font-size: 30px;
+top : -5px
+
+}
+
+ol li , p {
+    display: inline;
+    margin-right: 10px;
+    font-size: 14px;
+    
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+ol {
+    position : relative;
+    left: 150px ;
+    top : -45px
+    
+}
+.logo {
+    float:right;
+    width:25px;
+    height:25px;
+    position:relative;
+    top :-80px
+}
+/* .logo:hover {
+    background-color: rgb(255, 255, 255, 0.8);
+    transition: background-color 0.3s ease-in-out;
+} */
+.larki {
+    width:280px;
+    height:230px;
+    position : relative;
+    top :-190px;
+    float: right;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.1);
+    outline: 0.5px rgba(128, 128, 128, 0.452) solid;
+    outline-offset: 2px;
+}
+.larki:hover{
+    opacity: 0.5;
+    background-color: white;
+}
+button {
+    background-color: white;
+    color: rgb(50, 2, 194);
+    border-radius: 2px;
+    padding:8px 12px 7px;
+    border: 1px solid transparent;
+    margin-top: 20px;
+    font-weight: bold;
+ font-size: 9px; margin-right: 5px;
+}
+button:hover {
+    background-color: rgb(50, 2, 194);
+    color: white;
+   
+   cursor: pointer; border:1px solid white ;
+}
+.play {
+    background-color: white;
+    width: 14px;
+    padding:5px;
+    height: 14px;
+    margin-right: 5px;
+    margin-bottom: -8px;
+border-radius: 100%;
+}
+.watch {
+    font-size: 12px;
+}
+.foot {
+    background-color: white;
+}
+.foot {
+    position :relative;
+    left:-50px;
+    bottom:-20px;
+    padding:20px 30px;
+    width:692px
+    
+}

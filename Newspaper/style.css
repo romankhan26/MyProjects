@@ -1,0 +1,32 @@
+body {
+    font-family:   Arial , sans-serif;
+}
+.main
+{
+    margin:40px;
+}
+.mainhead {
+    text-align: center;
+    font-family:   Arial Black, sans-serif;
+    font-size: 50px;
+    letter-spacing: -3px;
+}
+hr {
+    height: 2.5px ;
+    background: #000;
+}
+h3{
+    text-align: center;
+}
+sup {
+   font-weight: lighter; 
+   font-size: 10px; 
+
+}
+.container {
+    display: flex;
+}
+.left {
+    border: 20px solid black;
+    border-right: 2px solid black;
+}

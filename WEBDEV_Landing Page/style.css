@@ -1,0 +1,103 @@
+
+body {
+    background-image: url("./assets/desk-with-laptop-cup-plant-book-it-desk-is-by-window-sun-is-shining-through-window-laptop-is-open_14117-86275.avif");
+background-size:cover;
+}
+header {
+position: absolute;  
+top: -36px;
+background-color: white;
+    color : white;
+    
+   width:1086px;
+    
+left:-1px;
+padding-top: 4px;
+padding-bottom: 6px;
+}
+header:hover{
+    background-color: rgba(255, 255, 255, 0.477);
+}
+.links {
+    float: right;
+    margin-right: 80px;
+    font-size: 12px;
+    color: black;
+    font-family: 'Arial Narrow';
+ 
+}
+.webdev{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position :relative;
+    left :80px;
+ top :35px;
+ font-size: 22px;
+ font-weight: bold;
+ color:rgb(0, 218, 164)
+
+}
+.links li {
+display: inline;
+letter-spacing: -0.2px;
+padding-right: 15px;
+position: relative
+;top:-10px;}ul li:hover{
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.mainArea {
+    background-color: rgba(0, 0, 0, 0.725);
+    /* background-size: cover; */
+   /* padding: 60px  200px 90px 160px;
+    */
+    padding-top: 60px;
+    padding-left: 160px;
+    /* padding-bottom: ; */
+margin-left: -10px;
+margin-top: 65px;
+margin-bottom: -30px;
+margin-right: -10px;
+/* margin-bottom: -70px; */
+}
+.business {
+    text-transform: capitalize;
+    color: white;
+    font-size: 37px;
+    /* padding-left: 20px; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.all_item {
+    padding-bottom: 250px;
+}
+.highlight
+ {
+    color: rgb(0, 218, 164)
+ }
+ .text {
+    font-family: Arial, Helvetica, sans-serif;
+margin-top: -20px;
+line-height: 20px;
+    font-size: 14px;
+    letter-spacing: -0.5px;
+    color: rgb(219, 219, 219);
+ }
+button {
+    padding: 10px 20px ;
+    background-color: rgb(0, 218, 164);
+    font-size: 12px;
+     border: 2px solid rgba(0, 235, 184, 0);
+     margin-right: 8px;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     color: white;
+     border-radius: 3px;
+     outline: rgba(128, 128, 128, 0.635);
+     outline-width: 0.2px;
+     outline-offset: 3px;
+}
+button:hover {
+    color: rgb(0, 218, 164)
+;
+border-color: rgb(0, 218, 164);
+background-color: white;}
